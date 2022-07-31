@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title>html layout</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .header {
+            height: 75px;
+            align-content: center;
+            text-align: center;
+            font-size: 48px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .menu {
+            height: 30px;
+            background-color: rgb(27, 37, 46)
+        }
+
+        .content {
+            margin: 0;
+            padding: 0;
+            height: 500px;
+        }
+
+
+        a {
+            color: rgb(255, 255, 255);
+            font-family: Arial Bold;
+            text-decoration: none;
+            height: 100%;
+            width: 100%;
+        }
+
+        a:hover {
+            color: rgb(25, 174, 201);
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td class="header">Welcome To Ashwin Website</td>
+        </tr>
+        <tr>
+            <td class="menu">
+                <table style="width:auto ;">
+                    <tr>
+                        <td style="padding-left:10px ; padding-right: 10px; border-right: 1px solid rgb(0, 0, 0);"><a
+                                href="homepage.html" target="a1">HOME</a>
+                        </td>
+                        <td style="padding-left:10px ; padding-right: 10px; border-right: 1px solid rgb(0, 0, 0);"><a
+                                href="aboutme.html" target="a1">ABOUTME</a>
+                        </td>
+                        <td style="padding-left:10px ; padding-right: 10px; border-right: 1px solid rgb(0, 0, 0);"><a
+                                href="htmllessons.html " target="a1">HTML</a>
+                        </td>
+                        <td style="padding-left: 10px; padding-right: 10px; border-right: 1px solid rgb(0, 0, 0);">
+                            <a href="csslessons.html" target="a1">CSS</a>
+                        </td>
+                        <td style="padding-left: 10px; padding-right: 10px; border-right: 1px solid rgb(0, 0, 0);">
+                            <a href="sqllessons.html" target="a1">SQL</a>
+                        </td>
+                        <td style="padding-left: 10px; padding-right: 10px; border-right: 1px solid rgb(0, 0, 0);">
+                            <a href="phplessons.html" target="a1">PHP</a>
+                        </td>
+                        <td style="padding-left: 10px; padding-right: 10px; border-right: 1px solid rgb(0, 0, 0);">
+                            <a href="bookmark.html" target="a1">BOOKMARK</a>
+                        </td>
+
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="content">
+                <iframe src="homepage.html" style="width:100%;height:100%; border: none ;" name="a1"></iframe>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
