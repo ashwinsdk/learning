@@ -24,6 +24,7 @@
             text-decoration: none;
             color: rgb(0, 0, 0);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            align-content: center;
         }
 
         td {
@@ -36,6 +37,11 @@
             background-color: rgb(0, 250, 154);
             border-radius: 5px;
         }
+        div{
+            width: 100%;
+            border-bottom: 1px black solid;
+            align-content: center;
+         }
     </style>
 </head>
 
@@ -43,9 +49,11 @@
     <table>
         <tr>
             <td class="leftside">
-                <ul>
-                    <li><a href="php/phphome.php" target="content">PHP Home</a></li>
-                </ul>
+                <div><a href="php/phphome.php" target="content">PHP Home</a></div>
+                <div><a href="php/array.php" target="content">PHP Array</a></div>
+                <div><a href="php/functions.php" target="content">PHP Functions</a></div>
+                <div><a href="php/operators.php" target="content">PHP Operators</a></div>
+                <div><a href="php/loop.php" target="content">PHP Loop</a></div>
             </td>
             <td class="rightside">
                 <iframe src="php/phphome.php" name="content" height="100%" width="100%" style="border: none;"></iframe>
