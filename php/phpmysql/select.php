@@ -1,6 +1,11 @@
 <?php
+session_start();
 require "mysqldata.php";
-
+$session=$_SESSION["user"];
+if($session==true){}
+else{
+    header('location:loginform.php');
+}
 $sql= "select * from result;";
 $query=mysqli_query($conn,$sql);
 ?>
