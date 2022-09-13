@@ -1,4 +1,5 @@
 <?php
+session_start();
 require "mysqldata.php";
 
 if(isset($_POST["submit"])){

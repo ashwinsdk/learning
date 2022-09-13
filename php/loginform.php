@@ -4,9 +4,9 @@
     </head>
 
     <body>
-        <form action="" method="POST">
-            <input type="text" name="user" placeholder="username">
-            <input type="text" name="password" placeholder="password">
+        <form action="userlog.php" method="POST">
+            <input type="text" name="user" placeholder="username"><br><br>
+            <input type="text" name="password" placeholder="password"><br><br>
             <button type="submit" name="submit">Submit</button>
         </form>
     </body>
