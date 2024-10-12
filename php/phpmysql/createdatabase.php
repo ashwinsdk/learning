@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 $server="localhost";
 $user="root";
 $password="";
@@ -11,7 +14,7 @@ if (!$conn){
 }
 
 //create database
-$sql="create database students_results";
+$sql="create database ab";
 $result= mysqli_query($conn,$sql);
 if($result){
     echo "database successfully created";

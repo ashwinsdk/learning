@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // API CALL
+        // old method
+        let request= new XMLHttpRequest();
+        request.open("GET","https://reqres.in/api/users?page=2");
+        request.send();
+        request.onload = () => {
+            console.log(request);
+            if(request.status === 200){
+                console.log("response",JSON.parse(request.response));
+            } else{
+                console.log('Error');
+            }
+        }
+    </script>
+</body>
+</html>

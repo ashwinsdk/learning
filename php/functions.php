@@ -6,6 +6,8 @@ function marks($m1,$m2,$m3,$m4,$m5,$name){
     $physics=$m4;
     $chemistry=$m5;
     $total=$english+$maths+$computer+$physics+$chemistry;
+
+
    echo "<style>
    table{
     border-collapse:collapse;
@@ -18,6 +20,8 @@ function marks($m1,$m2,$m3,$m4,$m5,$name){
     background-color: #c0b5b5;    
    }
    </style>";
+
+
     echo"<h1>".$name."</h1>";
     echo "<table>";
     echo "<tr class='total'>
